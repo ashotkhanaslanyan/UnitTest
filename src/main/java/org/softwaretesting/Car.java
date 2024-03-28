@@ -5,8 +5,6 @@ public class Car {
         STATIONARY, MOVING, ACCELERATING
     }
 
-    private CarState currentState;
-
     public Car() {
         this.currentState = CarState.STATIONARY;
     }
@@ -46,6 +44,6 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Car myCar = new Car();
+        return;
     }
 }
